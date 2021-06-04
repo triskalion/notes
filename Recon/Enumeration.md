@@ -30,27 +30,27 @@
 	* netstat -ano
 2. List all
 	* `dir /r`
-2. Systeminfo
+3. Systeminfo
 	* `systeminfo | findstr /B /I /C:"OS Name" /C:"Os Version" /C:"System Type"`
-3. See patches and filter columns
+4. See patches and filter columns
 	* `wmic qfe get caption,description,providername`
-4. See logical disks info
+5. See logical disks info
 	* `wmic logicaldisk get caption,description,providername`
-5. User details
+6. User details
 	* `whoami`
 	* `whoami /priv`
 	* `whoami /groups`
-6. User and group details
+7. User and group details
 	* `net user <user>`
 	* `net localgroup <group>`
-7. Password hunting
+8. Password hunting
 	* `findstr /si password *.txt *.ini *.config` - searches in current folder
-8. Firewall and A/V enumeration
+9. Firewall and A/V enumeration
 	* `sc query windefend` - Windows defender status
 	* `sc queryex type=service` - service status
 	* `netsh advfirewall firewall dump` - old command
 	* `netsh firewall show state`
 	* ` netsh firewall show config`
-3. Read secondary data streams - **hm.txt:root.txt:$DATA**
+10. Read secondary data streams - **hm.txt:root.txt:$DATA**
 	*  Powershell: `powershell (Get-Content *<primary-stream>* -Stream <secondary-stream>)`
 	*  Regular cmd:	`more < <primary-stream>:<secondary-stream>:$DATA`
