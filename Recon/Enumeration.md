@@ -1,9 +1,9 @@
 ### Linux
 1. General
-        * `ifconfig` or `ip a`
-        * `arp -a`
-        * `route`
-        * `netstat -ltpn` - TCP
+	* `ifconfig` or `ip a`
+	* `arp -a`	
+	* `route`
+	* `netstat -ltpn` - TCP
 	* `netstat -lupn` - UDP
 2. List all
 	* `ls -la`
