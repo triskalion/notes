@@ -30,12 +30,12 @@ _During tests, it was observed that when needed to scan a domain with a specific
 * `dig @<DNS server> <domain> ANY`
 
 #### Filtering
-* `dig @<DNS server> <domain> ANY <filtering>`
+- `dig @<DNS server> <domain> ANY <filtering>`
 	<br>where _filtering_ can be
-	  - `+noall`
-	  - `+answer`
-	  - `+trace`
-	  - etc.
+  - `+noall`
+  - `+answer`
+  - `+trace`
+  - etc.
 
 _**dig** and **nslookup** take default DNS from /etc/resolv.conf `nameserver <IP>` setting_
 
