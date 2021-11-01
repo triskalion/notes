@@ -25,7 +25,7 @@ _During tests, it was observed that when needed to scan a domain with a specific
 # dig
 #### Setting local DNS
 `dig @10.50.96.5 foocampus.com -t ANY +nocookie`
-<br>_it was observed that for internal DNS the *dig* queries don't return results without `-t <filter> +nocookie`_
+<br>_it was observed that for internal DNS the **dig** queries don't return results without `-t <filter> +nocookie`_
 
 #### NS enumeration
 * `dig @<DNS server> <domain> NS`
