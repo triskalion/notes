@@ -24,7 +24,7 @@ _During tests, it was observed that when needed to scan a domain with a specific
 
 # dig
 #### Setting local DNS
-`dig @10.50.96.5 foocampus.com -t ANY +nocookie`
+`dig @<DNS server> <domain> -t ANY +nocookie`
 <br>_it was observed that for internal DNS the **dig** queries don't return results without `-t <filter> +nocookie`_
 
 #### NS enumeration
@@ -44,6 +44,10 @@ _During tests, it was observed that when needed to scan a domain with a specific
   - `+trace`
   - etc.
 
+#### Cool one-liner
+* `dig @<DNS server> <domain> -t ANY +noall +answer +nocookie`
+* `dig @<DNS server> <domain> -t AXFR +noall +answer +nocookie`
+
 _**dig** and **nslookup** take default DNS from /etc/resolv.conf `nameserver <IP>` setting_
 
 
@@ -56,3 +60,6 @@ _**dig** and **nslookup** take default DNS from /etc/resolv.conf `nameserver <IP
 # dnsrecon
 
 # dnsdumpster
+
+## Cool resources
+https://book.hacktricks.xyz/pentesting/pentesting-dns - automatic!
