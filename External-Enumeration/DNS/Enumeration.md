@@ -62,4 +62,4 @@ _**dig** and **nslookup** take default DNS from /etc/resolv.conf `nameserver <IP
 # dnsdumpster
 
 ## Cool resources
-https://book.hacktricks.xyz/pentesting/pentesting-dns - automatic!
+https://book.hacktricks.xyz/pentesting/pentesting-dns
