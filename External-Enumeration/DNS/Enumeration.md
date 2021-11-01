@@ -23,9 +23,21 @@ _During tests, it was observed that when needed to scan a domain with a specific
 * `ls -d <domain>`
 
 # dig
+#### NS enumeration
+* `dig @<DNS server> <domain> NS`
 
+#### All entries
+* `dig @<DNS server> <domain> ANY`
 
-_dig and nslookup take default DNS from /etc/resolv.conf `nameserver <IP>` setting_
+#### Filtering
+* `dig @<DNS server> <domain> ANY <filtering>`
+	<br>where _filtering_ can be
+	  - `+noall`
+	  - `+answer`
+	  - `+trace`
+	  - etc.
+
+_**dig** and **nslookup** take default DNS from /etc/resolv.conf `nameserver <IP>` setting_
 
 
 # fierce
