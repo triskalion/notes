@@ -12,8 +12,7 @@
 * `-sX` - Christmas scan
 <br>_the above flags "exploits" the fact that TCP RFC states that for packages without *SYN*,*RST* and *ACK* the target a *RST* for *closed* ports and *no response* for *open* ports._
 <br>_ATTENTION! most OS send *RST in both cases*_
-<br>
-* `-sI` - idle zombie scan
+- `-sI` - idle zombie scan
 - `-sA` - determine presence of firewalls;
   - open/closed ports => *unfiltered*
   - no response ports => *filtered*
