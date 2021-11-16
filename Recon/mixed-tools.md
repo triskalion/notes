@@ -17,3 +17,12 @@
   - open/closed ports => *unfiltered*
   - no response ports => *filtered*
 
+# hping3
+#### Flags
+* `-S` - SYN scan
+* `-r` - displays IP ID increments relatively
+#### Zombie Scan
+- Find a zombie
+  - `hping3 -S -r -p <target_port> <target_IP>` - where target = suspected zombie
+- Idle Scan
+  - `hping3 -a <zombie_IP> -S -p <target_port> <target_IP>`
