@@ -1,6 +1,6 @@
 # NetBIOS
 Allow apps on different systems to communicate over LAN.
-Ports:
+<br>Ports:
 - UDP 137 -> name services (NetBIOS name -> IP)
 - UDP 138 -> datagram services (send/receive)
 - TCP 139 -> session services (establish communication)
