@@ -27,13 +27,20 @@ e.g. `<20>` - Server Service
 * `smbclient -L <target_IP>` - NULL session when providing no user
 * `smbclient  \\\\<target_IP>\\<share>`
 	* `-N` - don't ask password
-	<br>
+* `smbclient //10.2.26.9/IPC$ -N` - IPC$ interactive mode
+	* `help` - see options
+</br>
 * `smbmap -H <target_IP>` - NULL session without -u
-* `smbmap -H <target_IP> -R <share>`
-	<br>
+	* `-R <share>` - enumerate specific share
+</br>
+* `nmap --script=smb-enum* <target_IP>`
+	* `--script smb-protocols`
+	* `--script smb-security-mode` - smb protocol security level
+	* `--script smb-enum-users` - enumerate users
+</br>
 * `nmblookup -A <target_IP>`
 * `enum4linux -n <target_IP>`
-* `nmap --script=smb-enum* <target_IP>`
+
 
 ## Cool resources
 https://book.hacktricks.xyz/pentesting/pentesting-smb
