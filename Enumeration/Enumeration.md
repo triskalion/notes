@@ -1,4 +1,9 @@
 # NetBIOS
+Allow apps on different systems to communicate over LAN.
+Ports:
+	- UDP 137 -> name services (NetBIOS name -> IP)
+	- UDP 138 -> datagram services (send/receive)
+	- TCP 139 -> session services (establish communication)
 ### Windows
 #### nbtstat
 * `nbtstat -A <target_IP>`
