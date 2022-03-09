@@ -29,15 +29,15 @@ e.g. `<20>` - Server Service
 	* `-N` - don't ask password
 * `smbclient //10.2.26.9/IPC$ -N` - IPC$ interactive mode
 	* `help` - see options
-</br>
+
 * `smbmap -H <target_IP>` - NULL session without -u
 	* `-R <share>` - enumerate specific share
-</br>
+
 * `nmap --script=smb-enum* <target_IP>`
 	* `--script smb-protocols`
 	* `--script smb-security-mode` - smb protocol security level
 	* `--script smb-enum-users` - enumerate users
-</br>
+
 * `nmblookup -A <target_IP>`
 * `enum4linux -n <target_IP>`
 
