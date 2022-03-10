@@ -1,6 +1,6 @@
 # 
 #### Meterpreter
-** Needed when running as _NT AUTHORITY\SYSTEM_ but get _Access Denied_**
+**Needed when running as _NT AUTHORITY\SYSTEM_ but get _Access Denied_**
 * `migrate -N <process/PID>`
 
 ## Cool resources
