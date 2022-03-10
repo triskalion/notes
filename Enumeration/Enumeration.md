@@ -13,10 +13,11 @@ e.g. `<20>` - Server Service
 
 #### net view
 * `net view <target_IP>` - list domains, computers and shared resources
+_share folders accessible when NULL Sessions are allowed_
 
 #### net use
 * `net use <local_drive> \\<target_IP>` - connect or disconnect a PC to a shared resource
-
+_Accepts username:password params_
 
 ### Linux
 #### nbtscan
