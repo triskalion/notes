@@ -1,8 +1,7 @@
-# 
+# Metasploit
 #### Meterpreter
-**Needed when running as _NT AUTHORITY\SYSTEM_ but get _Access Denied_**
-_Needed when running as **NT AUTHORITY\SYSTEM** but get _Access Denied__
-* `migrate -N <process/PID>`
+* `migrate -N <process/PID>`<br>
+_Needed when running as **NT AUTHORITY\SYSTEM** but get Access Denied_
 
 ## Cool resources
-https://book.hacktricks.xyz/tunneling-and-port-forwarding
+https://www.offensive-security.com/metasploit-unleashed/meterpreter-basics/
