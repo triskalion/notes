@@ -1,10 +1,10 @@
 ### Cain&Abel
 1. Set the ethernet card
-* `Configure > select card > OK`
+   _ `Configure > select card > OK`
 2. Sniff network
-* `Sniffer` tab
-* Press `Start/Stop Sniffer` button
-* Press `Host` a right click to `Scan MAC address`
+   _ `Sniffer` tab
+   _ Press `Start/Stop Sniffer` button
+   _ Press `Host` a right click to `Scan MAC address`
 3. ARP poison
 * Press `APR` and `+` sign
 * Press Detonate (`Start/Stop APR`) button
