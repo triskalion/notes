@@ -17,13 +17,16 @@ e.g. `<20>` - Server Service
 
 #### net use
 * `net use <local_drive> \\<target_IP>` - connect or disconnect a PC to a shared resource<br>
-_Accepts username:password params_
+* `net use <local_drive> \\<target_IP> /user:<uid> <password>` - _Accepts username:password params_
 
 ### Linux
 #### nbtscan
 * `nbtscan -v <target_IP>` - NetBIOS info of machine. `<target_IP>` also works with CIDR notation.
 
 # SMB
+<br><br>Ports:
+- TCP 445 -> runs without NetBIOS
+- TCP 139 -> (before W2000) + NetBIOS
 #### Enumerate shares and hostname
 * `smbclient -L <target_IP>` - NULL session when providing no user
 * `smbclient  \\\\<target_IP>\\<share>`
