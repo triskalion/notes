@@ -1,6 +1,6 @@
 ### Cain&Abel
 1. Set the ethernet card
-   _`Configure > select card > OK`
+   * `Configure > select card > OK`
 2. Sniff network
    _`Sniffer` tab
    _Press `Start/Stop Sniffer` button
