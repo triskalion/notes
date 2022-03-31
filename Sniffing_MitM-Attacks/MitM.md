@@ -27,6 +27,6 @@
    	  where `-r` -> poisong both hosts
 3. Arp spoof - 2nd direction
    * `arpspoof -i eth1 -t <host/target2> -r <target1>`
-## driftnet - capture images from network traffic and display them in an X window; optionally, capture audio streams and play them.
+#### driftnet - capture images from network traffic and display them in an X window; optionally, capture audio streams and play them.
 1. While arp-spoof is working
     * `driftnet -i <interface>`
