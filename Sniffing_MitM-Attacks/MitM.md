@@ -30,3 +30,5 @@
 #### driftnet - capture images from network traffic and display them in an X window; optionally, capture audio streams and play them.
 1. While arp-spoof is working
     * `driftnet -i <interface>`
+
+## Cool resources
