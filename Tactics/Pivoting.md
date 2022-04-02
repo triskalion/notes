@@ -6,6 +6,10 @@
 * configure it according with `cat /etc/proxychains.conf`
 * `run/exploit` socks_proxy
 * in linux host use `proxychains nmap -sT ...`
+#### Port forward
+* `portfwd add -l <local_port> -p <target_port> -r <target_IP>`
+* `portfwd list` - check port forwarding list
+* in linux host, run `nmap <local_port>`
 
 ## Cool resources
 https://book.hacktricks.xyz/tunneling-and-port-forwarding
