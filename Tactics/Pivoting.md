@@ -11,6 +11,9 @@
 * `meterpreter> portfwd add -l <local_port> -p <target_port> -r <target_IP>`
 * `meterpreter> portfwd list` - check port forwarding list
 * in linux host, run `nmap <local_port>`
+##### Notes
+* when route is activated and exploiting other hosts through msf pivoting, `reverse_tcp` doesn't work
+  * use `bind_tcp` payloads 
 
 ## Cool resources
 https://book.hacktricks.xyz/tunneling-and-port-forwarding
