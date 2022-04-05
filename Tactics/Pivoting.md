@@ -8,8 +8,8 @@
 * in linux host use `proxychains nmap -sT ...`
 #### Port forward
 * `use auxiliary/scanner/portscan/tcp` - portscan (after running autoroute)
-* `portfwd add -l <local_port> -p <target_port> -r <target_IP>`
-* `portfwd list` - check port forwarding list
+* `meterpreter> portfwd add -l <local_port> -p <target_port> -r <target_IP>`
+* `meterpreter> portfwd list` - check port forwarding list
 * in linux host, run `nmap <local_port>`
 
 ## Cool resources
