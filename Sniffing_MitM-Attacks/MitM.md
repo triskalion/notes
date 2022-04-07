@@ -31,4 +31,7 @@
 1. While arp-spoof is working
     * `driftnet -i <interface>`
 
+### ICMP redirect attack
+ICMP redirect attacks modify the routing table of victim hosts, by misleading victims that they provide a better metric to the target destination outside the LAN.
 ## Cool resources
+https://ivanitlearning.wordpress.com/2019/05/20/icmp-redirect-attacks-with-scapy/
