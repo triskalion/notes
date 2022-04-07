@@ -33,5 +33,7 @@
 
 ### ICMP redirect attack
 ICMP redirect attacks modify the routing table of victim hosts, by misleading victims that they provide a better metric to the target destination outside the LAN.
+This redirection causes the victim hosts to update their routing table and insert “better priority” gateway alternatives through the attacker’s host instead to reach the destination network.
+
 ## Cool resources
 https://ivanitlearning.wordpress.com/2019/05/20/icmp-redirect-attacks-with-scapy/
