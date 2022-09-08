@@ -43,7 +43,13 @@ e.g. `<20>` - Server Service
 	* `--script smb-protocols`
 	* `--script smb-security-mode` - smb protocol security level
 	* `--script smb-enum-users` - enumerate users
+	* `--script smb-enum-shares` - enumerate shares
 
+
+* rpcbind
+	* `nmap -p 111 --script=nfs-ls,nfs-statfs,nfs-showmount <target_IP>`
+		* retrieves info from NFS shares
+ 
 
 * `nmblookup -A <target_IP>`
 
