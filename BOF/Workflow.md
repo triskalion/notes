@@ -8,6 +8,6 @@
 - info registers -> check registers ( here while breakpoint was hit)
 
 ## Payload format
-- (NOP * no_of_nops + shellcode + random_data * no_of_random_data + memory address)
+- (NOP * no_of_nops + shellcode + random_data * no_of_random_data + shellcode_memory_address)
 
 
