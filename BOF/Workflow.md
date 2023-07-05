@@ -7,4 +7,7 @@
 - r < <(echo -ne "\x41\x41\x41\x41\x41\x41\x41\x41\x41\x41\x41\x41\x41\x41\x67\x05\x40") -> run program with input interpreted as hex. !ATTENTION! little endian vs big endian
 - info registers -> check registers ( here while breakpoint was hit)
 
+## Payload format
+- (NOP * no_of_nops + shellcode + random_data * no_of_random_data + memory address)
+
 
