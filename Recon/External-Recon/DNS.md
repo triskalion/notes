@@ -36,6 +36,10 @@ _During tests, it was observed that when needed to scan a domain with a specific
 #### Zone Transfer
 * `dig @<DNS server> <domain> AXFR`
 
+#### Reverse lookup
+* `dig AXFR -x <IP-range> @<DNS server>`
+	<br>where _IP-range_ is the range owned by the company (_domain_)
+
 #### Filtering
 - `dig @<DNS server> <domain> ANY <filtering>`
 	<br>where _filtering_ can be
