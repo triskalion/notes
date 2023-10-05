@@ -27,3 +27,5 @@
   - `hping3 -S -r -p <target_port> <target_IP>` - where target = suspected zombie
 - Idle Scan
   - `hping3 -a <zombie_IP> -S -p <target_port> <target_IP>`
+ 
+# fping
