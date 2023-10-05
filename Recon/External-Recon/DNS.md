@@ -19,10 +19,10 @@ _During tests, it was observed that when needed to scan a domain with a specific
 * -q=any
 
 #### Zone Transfer
-1. `nslookup -q=AXFR <domain>  - <DNS server>`
+1. `nslookup -q=AXFR <domain>  - <DNS/NS server>`
 2. Interactive
 * `nslookup`
-* `server <DNS NS>`
+* `server <DNS/NS>`
 * `ls -d <domain>`
 
 # dig
@@ -37,7 +37,7 @@ _During tests, it was observed that when needed to scan a domain with a specific
 * `dig @<DNS server> <domain> ANY`
 
 #### Zone Transfer
-* `dig @<DNS server> <domain> AXFR`
+* `dig @<DNS/NS server> <domain> AXFR`
 
 #### Reverse lookup
 * `dig AXFR -x <IP-range> @<DNS server>`
