@@ -28,4 +28,7 @@
 - Idle Scan
   - `hping3 -a <zombie_IP> -S -p <target_port> <target_IP>`
  
+  #### Ping sweep
+  - `hping3 -1 <192.168.1.x> --rand-dest` - replace x with values
+ 
 # fping
