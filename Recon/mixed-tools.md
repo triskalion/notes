@@ -18,6 +18,10 @@
   - open/closed ports => *unfiltered*
   - no response ports => *filtered*
 
+#### Stealth scans
+* `-sI`: Idle Zombie scan
+*  `-b` : FTP Bounce scan
+
 # hping3
 #### Flags
 * `-S` - SYN scan
