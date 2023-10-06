@@ -20,7 +20,7 @@
 
 #### Stealth scans
 * `-sI`: Idle Zombie scan
-*  `-b` : FTP Bounce scan
+*  `-b`: FTP Bounce scan
 
 # hping3
 #### Flags
