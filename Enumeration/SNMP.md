@@ -10,7 +10,7 @@
 * `nmap -sU -p 161 --script=snmp-sysdescr <target>`
 * `nmap -sU -p 161 --script=snmp-win32-users <target>`
 * nmap -sU -p 161 -sC <target>
-  * $${\color{red}Red}$$(Performs a script scan using the default set of scripts. It is equivalent to --script=default. Some of the scripts in this category are considered intrusive and should not be run against a target network without permission.)
+  $${\color{red}Performs a script scan using the default set of scripts. It is equivalent to --script=default. Some of the scripts in this category are considered intrusive and should not be run against a target network without permission.}$$
 
 #### Bruteforce
 * `nmap -sU --script snmp-brute 10.2.16.153 --script-args snmp-brute.communitiesdb=/usr/share/wordlists/seclists/Discovery/SNMP/common-snmp-community-strings.txt`
