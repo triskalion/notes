@@ -33,5 +33,9 @@
  
 #### Ping scan
   - `hping3 -1 <192.168.1.x> --rand-dest` - replace x with values
- 
+
+# arp-scan
+#### Host Discovery
+* `arp-scan -I eth1 >target/24>`
+
 # fping
