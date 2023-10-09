@@ -33,7 +33,8 @@ e.g. `<20>` - Server Service
 	* `-N` - don't ask password
 * `smbclient //10.2.26.9/IPC$ -N` - IPC$ interactive mode
 	* `help` - see options
-
+#### Download all files
+* `smbget -R smb://<user>@<target>/<folder>`
 
 * `smbmap -H <target_IP>` - NULL session without -u
 	* `-R <share>` - enumerate specific share
