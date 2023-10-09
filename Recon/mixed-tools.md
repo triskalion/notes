@@ -5,7 +5,9 @@
 * `-sn`: only ping (_in reality it does TCP and UDP on port 80 and 443_)
 * `--disable-arp-ping`
 * `-PS/PA/PU/PY[portlist]`: TCP SYN/ACK, UDP or SCTP discovery to given ports
-* `PE/PP/PM`: ICMP echo, timestamp, and netmask request discovery probes
+* P*
+  - `PE/PP/PM`: ICMP echo, timestamp, and netmask request discovery probes
+  - `PR` - arp scan; done by default with other P* options
 
 #### Flags
 * `-sN` - null scan; every bit 0
