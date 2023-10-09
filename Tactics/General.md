@@ -9,6 +9,6 @@ PrivEsc
 4. strings SUID/GUID execs
 * PATH variable manipulation
 
-###Wordlists
+### Wordlists
 * `/usr/share/metasploit-framework/data/wordlists/unix_passwords.txt`
 * `/usr/share/wordlists/seclists`
