@@ -9,6 +9,7 @@
 * `nmap -sU -p 161 --script=snmp-netstat <target>`
 * `nmap -sU -p 161 --script=snmp-sysdescr <target>`
 * `nmap -sU -p 161 --script=snmp-win32-users <target>`
+* `nmap -sU -p 161 --script snmp-* <target> > snmp_output`
 * nmap -sU -p 161 -sC <target>
 > [!Important]
  Performs a script scan using the default set of scripts. It is equivalent to --script=default. Some of the scripts in this category are considered intrusive and should not be run against a target network without permission.
