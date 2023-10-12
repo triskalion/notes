@@ -23,6 +23,10 @@
 * `-sI`: Idle Zombie scan
 *  `-b`: FTP Bounce scan
 
+#### Scan for vulnerabilities
+* `--script vuln`
+
+
 # hping3
 #### Flags
 * `-S` - SYN scan
