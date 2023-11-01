@@ -8,9 +8,10 @@
 2. List all
 	* `ls -la`
 3. OS
-	* ` cat /proc/version`
+	* `cat /proc/version`
 	* `/etc/issue` - distribution
 	* `lscpu` - architecture
+ 	* `lsb_release`
 4. User Enum
 	* `id`
 	* `sudo -l`
