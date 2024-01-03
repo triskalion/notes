@@ -6,7 +6,7 @@
 * `arp-scan -I <interface> <range/22/16>`
 
 #### Cain&Abel (Windows)
-* see 'notes/Sniffing_MitM-Attacks/MitM.md' - `Cain&Abel` section
+* see https://github.com/triskalion/notes/blob/master/Tactics/Sniffing_MitM-Attacks/MitM.md - `Cain&Abel` section
 
 ## Cool resources
 
