@@ -1,7 +1,8 @@
 #### Port
 - NFS UDP/TCP: 2049
-- NFS services uses *rpcbind*
+    - NFS services uses *rpcbind*
 - Portmapper TCP/UDP: 111, 32771
+- Samba TCP/UDP: 135,137,138,139,445
 #### nmap scripts
 __NFS__
 * `ls /usr/share/nmap/scripts | grep nfs`
@@ -14,3 +15,5 @@ __NFS__
 * `mount -t nfs <NFS server IP>:</home/bob> <local folder> -o nolock`
 __Portmapper (rpcbind)__
 * `rpcinfo -p <IP>`
+__Samba__
+* `mount -t cifs <\\\\SMB server IP\\folder> <local folder>`
