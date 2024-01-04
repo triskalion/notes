@@ -15,5 +15,6 @@ __NFS__
 * `mount -t nfs <NFS server IP>:</home/bob> <local folder> -o nolock`
 __Portmapper (rpcbind)__
 * `rpcinfo -p <IP>`
+
 __Samba__
 * `mount -t cifs <\\\\SMB server IP\\folder> <local folder>`
