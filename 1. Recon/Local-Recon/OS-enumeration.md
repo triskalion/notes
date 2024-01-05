@@ -43,6 +43,10 @@
    * `grep pass* /etc/*.conf`
    * `lsof -n` - list open files
    * `ps aux | awk '{print $11}' | xargs -r ls -la 2>/dev/null | awk '!x[$0]++'` - print process binaries/paths and permissions
+   * SUID/GUID files
+   * GTFO bin SUID/GUID execs
+   * strings SUID/GUID execs
+   * PATH variable manipulation
 * User Enum
    * `id`
    * `cat /etc/passwd`
