@@ -19,6 +19,7 @@ __Portmapper (rpcbind)__
 __Samba__
 * `mount -t cifs <\\\\SMB server IP\\folder> <local folder>`
 * `mount -t cifs -o "username=user,password=password" //x.x.x.x/share /mnt/share`
+* `mount -t cifs -o user=<user>,password=<password>,rw,vers=1.0 //<SMB_target-IP>/<SMB_share> <local-mount-folder>`
 * `--script smb-enum-users`
 * `--script smb-enum-shares`
 * `--script smb-ls`
