@@ -23,4 +23,4 @@ __Samba__
 * `--script smb-enum-shares`
 * `--script smb-ls`
 * `--script smb-os-discovery`
-* 
+* `rpcclient -U "" -N demo2.ine.local` - interact
