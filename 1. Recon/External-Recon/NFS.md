@@ -18,3 +18,8 @@ __Portmapper (rpcbind)__
 
 __Samba__
 * `mount -t cifs <\\\\SMB server IP\\folder> <local folder>`
+* `--script smb-enum-users`
+* `--script smb-enum-shares`
+* `--script smb-ls`
+* `--script smb-os-discovery`
+* 
