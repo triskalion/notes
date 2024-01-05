@@ -2,6 +2,7 @@
 - SMTP TCP: 25
 #### nmap scripts
 * `--script smtp-commands` - enumerate enabled verbs
+* `--script smtp-enum-users` - enum users
 * `nc/telnet <IP> <port>` - enumerate enabled verbs
     * `help` 
 #### User enumeration - Verbs
