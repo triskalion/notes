@@ -6,3 +6,7 @@
 ### Wordlists
 * `/usr/share/metasploit-framework/data/wordlists/unix_passwords.txt`
 * `/usr/share/wordlists/seclists`
+
+### Shells
+* `/usr/share/webshells/`
+* https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
