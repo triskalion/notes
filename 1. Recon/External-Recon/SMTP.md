@@ -4,7 +4,9 @@
 * `--script smtp-commands` - enumerate enabled verbs
 * `--script smtp-enum-users` - enum users
 * `nc/telnet <IP> <port>` - enumerate enabled verbs
-    * `help` 
+    * `help`
+#### Metasploit
+* `use auxiliary/scanner/smtp/smtp_enum`
 #### User enumeration - Verbs
 __RCPT TO__
 * `HELO <tester>.<localdomain>`
