@@ -9,4 +9,5 @@
 
 ### Shells
 * `/usr/share/webshells/`
+* `/usr/share/laudanum`
 * https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
