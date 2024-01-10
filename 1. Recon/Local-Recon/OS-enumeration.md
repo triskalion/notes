@@ -55,6 +55,7 @@
    * `cat /etc/sudoers`
 * Password hunting
   * `grep --color=auto -rnw '/' -ie "PASSWORD" --color=always 2> /dev/null` - search in files
+  * `grep "password" /etc/*.conf 2> /dev/null` - search password in conf files
   * `locate password | more` - search file name
   * `find / -name id_rsa 2> /dev/null`
 ### Tools
