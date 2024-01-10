@@ -44,6 +44,7 @@
    * `grep pass* /etc/*.conf`
    * `lsof -n` - list open files
    * `ps aux | awk '{print $11}' | xargs -r ls -la 2>/dev/null | awk '!x[$0]++'` - print process binaries/paths and permissions
+   * `cat /etc/NetworkManager/system-connections/* | grep -E "^id|^psk"` - dump cleartext pre-shared wireless keys from Network Manager
    * SUID/GUID files
    * GTFO bin SUID/GUID execs
    * strings SUID/GUID execs
