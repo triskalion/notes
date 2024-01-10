@@ -61,6 +61,8 @@
   * `find / -name id_rsa 2> /dev/null`
 ### Tools
 * LinEnum - https://github.com/rebootuser/LinEnum
+    * `-h` -see help
+    * `-k password` - search config files for _password_ word
 * LinuxPrivChecker - https://github.com/sleventyeleven/linuxprivchecker
 * Unix-privesc-check - https://pentestmonkey.net/tools/audit/unix-privesc-check
 * mimipenguin - https://github.com/huntergregal/mimipenguin - dumps the logon for currently logged on user
