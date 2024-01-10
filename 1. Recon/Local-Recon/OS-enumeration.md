@@ -32,6 +32,7 @@
    * `echo $PATH`
    * `cat /etc/crontab && ls -als /etc/cron*` - list all cron jobs
    * `find /etc/cron* -type f -perm -o+w -exec ls -l {} \;` - find world writeable cron jobs
+   * `find /etc/init.d ! -uid 0 -type f 2>/dev/null | xargs ls -la` - check service configs readable or modifiable by current user
    * `ps auxwww` - list running processes
    * `ps -u root` - list processes running as root
    * `ps -u $USER` - list processes running as current user
