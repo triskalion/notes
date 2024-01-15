@@ -66,6 +66,7 @@
     * `-k password` - search config files for _password_ word
 * https://github.com/diego-treitos/linux-smart-enumeration
 * LinuxPrivChecker - https://github.com/sleventyeleven/linuxprivchecker
+* https://github.com/jondonas/linux-exploit-suggester-2
 * Unix-privesc-check - https://pentestmonkey.net/tools/audit/unix-privesc-check
 * mimipenguin - https://github.com/huntergregal/mimipenguin - dumps the logon for currently logged on user
 * https://github.com/t0thkr1s/gtfo?tab=readme-ov-file
