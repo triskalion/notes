@@ -64,6 +64,7 @@
 * LinEnum - https://github.com/rebootuser/LinEnum
     * `-h` -see help
     * `-k password` - search config files for _password_ word
+* https://github.com/diego-treitos/linux-smart-enumeration
 * LinuxPrivChecker - https://github.com/sleventyeleven/linuxprivchecker
 * Unix-privesc-check - https://pentestmonkey.net/tools/audit/unix-privesc-check
 * mimipenguin - https://github.com/huntergregal/mimipenguin - dumps the logon for currently logged on user
