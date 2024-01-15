@@ -36,7 +36,8 @@
    * `ps auxwww` - list running processes
    * `ps -u root` - list processes running as root
    * `ps -u $USER` - list processes running as current user
-   * `find / -perm -4000 -type f 2>/dev/null` - find SUID files
+   * `find / -perm -4000 -type f -exec ls {} \; 2>/dev/null` - find SUID files
+   *  `find / -perm -4001 -type f -exec ls {} \; 2>/dev/null`
    * `find / -uid 0 -perm -4000 -type f 2>/dev/null` - find SUID files owned by root
    * `find / -perm -2000 -type f 2>/dev/null` - find GUID files
    * `find / -perm -2 -type f 2>/dev/null` - find world-writeable files
