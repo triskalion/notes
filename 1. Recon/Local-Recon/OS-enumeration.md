@@ -39,7 +39,7 @@
    * `find / -perm -4000 -type f -exec ls {} \; 2>/dev/null` - find SUID files
    *  `find / -perm -4001 -type f -exec ls {} \; 2>/dev/null`
    * `find / -uid 0 -perm -4000 -type f 2>/dev/null` - find SUID files owned by root
-   * `find / -perm -2000 -type f 2>/dev/null` - find GUID files
+   * `find / -perm -2000 -type f 2>/dev/null` - find SGID files
    * `find / -perm -2 -type f 2>/dev/null` - find world-writeable files
    * `ls -al /etc/*.conf`
    * `grep pass* /etc/*.conf`
