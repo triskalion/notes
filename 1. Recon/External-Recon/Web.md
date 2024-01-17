@@ -25,8 +25,12 @@
 
 ## Fingerprinting custom apps
 
+## Mapping the attack surface
+
 ## Enumerating resources
 * crawling: spidering with Burp, ZAP
 * hidden files: dirb, dirsearch
-   * extensions: bak, inc, conf
+   * extensions: bak, inc, conf, old
 * user accounts
+
+## Misconfigurations
