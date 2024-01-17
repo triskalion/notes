@@ -24,4 +24,9 @@
 * amass
 
 ## Fingerprinting custom apps
-*  
+
+## Enumerating resources
+* crawling: spidering with Burp, ZAP
+* hidden files: dirb, dirsearch
+   * extensions: bak, inc, conf
+* user accounts
