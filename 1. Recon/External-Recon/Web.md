@@ -1,6 +1,6 @@
 ## Info gathering
 ### nslookup
 * `nslookup` on domain and subdomains
-* `netcraft` - subdomain discovery; fingerprinting web servers
+* https://sitereport.netcraft.com/ - subdomain discovery; fingerprinting web servers
 
 ## Infrastructure
