@@ -20,6 +20,8 @@
 * zone transfers
 * tools: dnsrecon, subbrute, fierce, dnsenum, theHarvester, recon-ng
 
-
-## Complete tools
+### Complete tools
 * amass
+
+## Fingerprinting custom apps
+*  
