@@ -34,3 +34,8 @@
 * user accounts
 
 ## Misconfigurations
+
+## Google Hacking
+* test dorks on all browsers and search engines
+
+## Shodan and Censys
