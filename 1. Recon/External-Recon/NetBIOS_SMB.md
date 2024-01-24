@@ -32,7 +32,7 @@ e.g. `<20>` - Server Service
 * `smbclient  \\\\<target_IP>\\<share>`
 	* `-N` - don't ask password
 __Download recursively content of folder__
-* `smb:>mask "";recurse ON;prompt OFF;cd 'path\to\remote\dir';lcd '~/path/to/download/to/';mget *`
+	* `smb:>mask "";recurse ON;prompt OFF;cd 'path\to\remote\dir';lcd '~/path/to/download/to/';mget *`
 * `smbclient //10.2.26.9/IPC$ -N` - IPC$ interactive mode
 	* `help` - see options
 
