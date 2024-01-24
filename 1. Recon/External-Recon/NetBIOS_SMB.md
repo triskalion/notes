@@ -31,7 +31,7 @@ e.g. `<20>` - Server Service
 * `smbclient -L <target_IP>` - NULL session when providing no user
 * `smbclient  \\\\<target_IP>\\<share>`
 	* `-N` - don't ask password
-__Download recursively content of folder__
+ __Download recursively content of folder__
 	* `smb:>mask "";recurse ON;prompt OFF;cd 'path\to\remote\dir';lcd '~/path/to/download/to/';mget *`
 * `smbclient //10.2.26.9/IPC$ -N` - IPC$ interactive mode
 	* `help` - see options
