@@ -1,29 +1,30 @@
 #### Framework
 https://osintframework.com/
 
-#### Search engines
+## Search engines
 ### Google
 ### Bing
 ### Yandex 
 ### Baidu 
 ### Goo
 
-#### Social Media
+## Social Media
 ### Corporate/Busniess Controlled Content
-## LinkedIn
+#### LinkedIn
 - - google dorks - site:*.linkedin.com intext:<keyword>
-## Facebook
+#### Facebook
 - google dorks - site:*.facebook.com intext:<keyword>
-## Instagram
+#### Instagram
 - google dorks - site:*.instagram.com intext:<keyword>
-## Twitter
+#### Twitter
 - google dorks - site:*.twitter.com intext:<keyword>
 - https://tinfoleak.com/
-### Employee Controlled Content
+
+## Employee Controlled Content
 - Instagram facility analysis
 - Instagram hashtag review
 
-#### Repo search
+## Repo search
 ### github
 - gist searches: https://gist.github.com/discover
 - https://github.com/BishopFox/GitGot
@@ -38,7 +39,7 @@ https://osintframework.com/
 #### Ticketing systems
 
 
-#### DNS
+## DNS
 ### maltego
 
 ### amass
@@ -64,49 +65,49 @@ https://osintframework.com/
 ### domreg-enum
 - https://github.com/ninewires/scripts -> domreg-enum.sh
 
+### Expired domains
+- https://www.expireddomains.net/
+
 ### Subdomain takeover
 - https://github.com/haccer/subjack
 - https://github.com/EdOverflow/can-i-take-over-xyz
 
-#### Office 365
+## Office 365
 - `getuserrealm.srf`
     - https://gist.github.com/iknowjason/ac3afb89a51e38603650b21f91626643
     - https://github.com/cham423/passwordguess.me 
 
-#### Host Enumeration
+## Host Enumeration
 ### WHOIS
 - https://whois.domaintools.com/
 - https://viewdns.info/
 - https://whoisology.com/#advanced
 - https://www.whoisxmlapi.com/
 
-### Domains
-- https://www.expireddomains.net/
+### Shodan
+### Censys
+### Spyse
 
-### shodan
-### censys
-### spyse
-
-#### Website
+## Website
 ### Lookup
 - https://website.informer.com/
 ### Archive
 - https://archive.org/web/
 - https://archive.is/ -> works with wildcard also: https://archive.is/*.facebook.com
 
-#### Company
+## Company
 - https://opencorporates.com/
 
-#### Document Metadata Analysis
+## Document Metadata Analysis
 - pull large sites from google/aquatone report
 - pymeta
 - manual
 
-#### Mail Blacklist Check
+## Mail Blacklist Check
 - maltego
 - https://mxtoolbox.com/blacklists.aspx
 
 
 
-#### Cool resources
+## Cool resources
 - https://github.com/optiv/OSINT_Encyclopedia
