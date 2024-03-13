@@ -1,5 +1,9 @@
 #### Framework
 https://osintframework.com/
+https://map.malfrats.industries/
+https://intelx.io/tools
+https://metaosint.github.io/
+https://github.com/jivoi/awesome-osint?tab=readme-ov-file#-pastebins
 
 ## Search engines
 ### Google
